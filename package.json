@@ -1,0 +1,31 @@
+{
+  "name": "tpl-map-pass",
+  "version": "1.0.0",
+  "description": "Determine libraries with the most passes",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristinus/tpl-map-pass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kristinus/tpl-map-pass/issues"
+  },
+  "homepage": "https://github.com/Kristinus/tpl-map-pass#readme",
+  "devDependencies": {
+    "@types/node": "^14.18.22",
+    "gts": "^3.1.0",
+    "typescript": "^4.0.3"
+  }
+}
